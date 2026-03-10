@@ -25,5 +25,10 @@ dependencyResolutionManagement {
 
 rootProject.name = "TusherEngine"
 
-// জিতপ্যাককে শুধু :editor মডিউল চিনিয়ে দেওয়া হলো
+// স্মার্ট ইনক্লুড: যদি 'app' ফোল্ডারটি থাকে (যেমন আপনার লোকালে), তবেই এটি ইনক্লুড হবে।
+// এটি করলে জিতপ্যাকে বিল্ড ফেইল হবে না কারণ সেখানে 'app' ফোল্ডারটি থাকবে না।
+if (java.io.File(rootDir, "app").exists()) {
+    include(":app")
+}
+
 include(":editor")
