@@ -1,15 +1,14 @@
 *.iml
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+/.idea/
 .DS_Store
-/build
-/captures
+build/
+*/build/
+captures/
 .externalNativeBuild
 .cxx
 local.properties
+
+# শুধুমাত্র লাইব্রেরি পাবলিশ করার জন্য app ফোল্ডার ইগনোর করা হলো
+/app
