@@ -1,0 +1,8 @@
+com.azizul.tushereditor.editor-pngs-0 C:\Users\Yana\AndroidStudioProjects\TusherEngine\editor\build\generated\res\pngs\debug
+com.azizul.tushereditor.editor-updated_navigation_xml-1 C:\Users\Yana\AndroidStudioProjects\TusherEngine\editor\build\generated\updated_navigation_xml\debug
+com.azizul.tushereditor.editor-mergeDebugResources-2 C:\Users\Yana\AndroidStudioProjects\TusherEngine\editor\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.azizul.tushereditor.editor-mergeDebugResources-3 C:\Users\Yana\AndroidStudioProjects\TusherEngine\editor\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.azizul.tushereditor.editor-debug-4 C:\Users\Yana\AndroidStudioProjects\TusherEngine\editor\build\intermediates\merged_res\debug\mergeDebugResources
+com.azizul.tushereditor.editor-debug-5 C:\Users\Yana\AndroidStudioProjects\TusherEngine\editor\build\intermediates\packaged_res\debug\packageDebugResources
+com.azizul.tushereditor.editor-debug-6 C:\Users\Yana\AndroidStudioProjects\TusherEngine\editor\src\debug\res
+com.azizul.tushereditor.editor-main-7 C:\Users\Yana\AndroidStudioProjects\TusherEngine\editor\src\main\res

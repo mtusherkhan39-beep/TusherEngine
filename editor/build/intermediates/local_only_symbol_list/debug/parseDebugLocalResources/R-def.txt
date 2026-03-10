@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+drawable popup_background_editor
+drawable round_content_copy_20
+drawable round_content_cut_20
+drawable round_content_paste_20
+drawable round_select_all_20
+id btn_comment
+id btn_copy
+id btn_create_constructor
+id btn_create_getter_setter
+id btn_create_tostring
+id btn_cut
+id btn_more_options
+id btn_paste
+id btn_select_all
+id divider_generate
+id divider_java
+layout popup_generate_menu
+layout popup_selection_menu
