@@ -25,6 +25,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "TusherEngine"
 
-// :app এবং :editor দুটি মডিউলই এখানে থাকবে
-include(":app")
+// জিতপ্যাককে শুধু :editor মডিউল চিনিয়ে দেওয়া হলো
 include(":editor")
