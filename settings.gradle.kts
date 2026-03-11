@@ -1,12 +1,6 @@
 pluginManagement {
     repositories {
-        google {
-            content {
-                includeGroupByRegex("com\\.android.*")
-                includeGroupByRegex("com\\.google.*")
-                includeGroupByRegex("androidx.*")
-            }
-        }
+        google()
         mavenCentral()
         gradlePluginPortal()
     }
@@ -25,10 +19,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "TusherEngine"
 
-// আপনার কম্পিউটারে app ফোল্ডার থাকলে সেটি দেখাবে, কিন্তু জিতপ্যাকে এটি ইগনোর হবে।
-val appDir = java.io.File(rootDir, "app")
-if (appDir.exists() && java.io.File(appDir, "build.gradle.kts").exists()) {
-    include(":app")
-}
-
+// জিতপ্যাকের বিল্ড সফল করার জন্য ডেমো অ্যাপটি আপাতত ইনক্লুড করা বন্ধ করা হলো।
+// আপনি আপনার কম্পিউটারে কাজ করার সময় নিচে include(":app") যোগ করে নিতে পারেন।
 include(":editor")
