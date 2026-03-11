@@ -25,9 +25,9 @@ dependencyResolutionManagement {
 
 rootProject.name = "TusherEngine"
 
-// স্মার্ট ইনক্লুড: যদি 'app' ফোল্ডারটি থাকে (যেমন আপনার লোকালে), তবেই এটি ইনক্লুড হবে।
-// এটি করলে জিতপ্যাকে বিল্ড ফেইল হবে না কারণ সেখানে 'app' ফোল্ডারটি থাকবে না।
-if (java.io.File(rootDir, "app").exists()) {
+// আপনার কম্পিউটারে app ফোল্ডার থাকলে সেটি দেখাবে, কিন্তু জিতপ্যাকে এটি ইগনোর হবে।
+val appDir = java.io.File(rootDir, "app")
+if (appDir.exists() && java.io.File(appDir, "build.gradle.kts").exists()) {
     include(":app")
 }
 
